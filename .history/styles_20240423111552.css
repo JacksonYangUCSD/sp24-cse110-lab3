@@ -1,0 +1,7 @@
+body { /*the body color change to light gray*/
+    background-color: lightgray;
+}
+#main {
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+}
