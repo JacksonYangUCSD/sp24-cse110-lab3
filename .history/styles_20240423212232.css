@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-body { /*the body color change to light gray*/
-    background-color: lightgray;
-}
-=======
 :root { /* Global variables for the following code*/
     --main-bg-color: lightgray;
     --navyblu: rgb(0, 32, 79);
@@ -118,4 +113,3 @@ form input, form textarea, form li { /*the input, text area and the list of the 
 button:hover { /*gives action to button (color change)*/
     background-color: bisque;
 }
->>>>>>> Stashed changes
