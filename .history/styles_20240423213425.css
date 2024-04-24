@@ -94,7 +94,7 @@ details[open] { /*when display open, background color change*/
 #ah { /*The Agenda header's placement change*/
     position: fixed;
     right: 3cm;
-    top: 8em;
+    top: 6em;
     height: auto;
 }
 
