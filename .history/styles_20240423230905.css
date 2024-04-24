@@ -4,6 +4,12 @@
     --maincolor: hsl(268, 100%, 21%);
 }
 
+header{
+    hr{
+        border-top: 0.1cm dotted;
+    }
+}
+
 * { /*Universally sets the font*/
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
@@ -18,18 +24,11 @@ body { /*Sets the background color and the background fallback*/
 h4 { /*Sets the allignment for the header*/
     text-align: center;
 }
-/* 
-#main { 
+
+#main { /*The text shadow for aesthetic title*/
     text-align: center;
     text-shadow: 2px 2pt #6d6d6d;
-} */
-
-#head{ /*The text shadow for aesthetic title*/
-    h1{
-        text-align: center;
-        text-shadow: 2px 2pt #6d6d6d;
-    }
-} 
+}
 
 #topic { /*A color change for the topic */
     color: var(--navyblu);
@@ -47,7 +46,7 @@ label, #date { /*Date and label adjustments and color change*/
     list-style-position: inside;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-gap: 10pt;
+    grid-gap: 10px;
     align-items: center;
 }
 
