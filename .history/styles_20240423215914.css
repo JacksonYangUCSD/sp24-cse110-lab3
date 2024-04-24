@@ -62,7 +62,7 @@ label, #date { /*Date and label adjustments and color change*/
     border: 2vmin double black;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }

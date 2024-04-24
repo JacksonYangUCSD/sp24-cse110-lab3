@@ -4,36 +4,36 @@
     --maincolor: hsl(268, 100%, 21%);
 }
 
-* { /*Universally sets the font*/
+* {
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-body { /*Sets the background color and the background fallback*/
+body {
     background-color: var(--main-bg-color, rgb(240, 140, 140));
 }
 
-h4 { /*Sets the allignment for the header*/
+h4 {
     text-align: center;
 }
 
-#main { /*The text shadow for aesthetic title*/
+#main {
     text-align: center;
     text-shadow: 2px 2pt #6d6d6d;
 }
 
-#topic { /*A color change for the topic */
+#topic {
     color: var(--navyblu);
 }
 
-label, #date { /*Date and label adjustments and color change*/
+label, #date {
     color: var(--maincolor);
     margin-right: 0.3em;
 }
 
-#CrewList { /*Editing the format and the color for the attendance list*/
-    color: color(display-p3 0.3 0.1 0.7);
+#CrewList {
+    color: color(sRGB 0 0 1 / 0.5);
     text-align: center;
     margin: auto;
     list-style-position: inside;
@@ -43,18 +43,18 @@ label, #date { /*Date and label adjustments and color change*/
     align-items: center;
 }
 
-.text { /*color change of the text to forest green*/
-    color: color-mix(in srgb, white 50%, green 50%);
+.text {
+    color: color-mix(in srgb, green 75%, black 45%);
 }
 
-#ALI { /*changed it so that the agenda is on the right middle for everyone to click as they scroll*/
+#ALI {
     position: fixed;
     right: 2cm;
     top: 15em;
     height: auto;
 }
 
-#head { /*The header will always be visable*/
+#head {
     position: sticky;
     top: 0;
     background-color: lightgray;
@@ -62,12 +62,12 @@ label, #date { /*Date and label adjustments and color change*/
     border: 2vmin double black;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-textarea { /*fixed width and height*/
+textarea {
     max-width: 20rem;
     min-width: 10rem;
     min-height: 10rem;
@@ -78,42 +78,38 @@ textarea { /*fixed width and height*/
     display: none;
 }
 
-video { /*the size will change with screen length*/
+video {
     width: 30vmax;
 }
 
-details[open] { /*when display open, background color change*/
+details[open] {
     background-color: rgb(67, 67, 67);
 }
 
-#ah { /*The Agenda header's placement change*/
+#ah {
     position: fixed;
     right: 3cm;
-    top: 8em;
+    top: 5.7cm;
     height: auto;
-    text-decoration: underline;
 }
 
-h3 + img { /*For the image following an h3 header will be placed differently*/
+h3 + img {
     padding-top: 0.5cm;
     padding-left: 3cm;
     padding-right: 5cm;
     padding-bottom: 2cm;
 }
 
-section:has(li) { /*If a <section> has an li it will have a different color*/
+section:has(li) {
     background-color: grey;
 }
 
-form input, form textarea, form li { /*the input, text area and the list of the form will look different than the others*/
+form input, form textarea, form li {
     display: inline-block;
     margin: 2px;
     color: forestgreen;
 }
 
-button:hover { /*gives action to button (color change)*/
+button:hover {
     background-color: bisque;
-}
-button:active { /*gives active color to the button*/
-    color:green;
 }

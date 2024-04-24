@@ -33,7 +33,7 @@ label, #date { /*Date and label adjustments and color change*/
 }
 
 #CrewList { /*Editing the format and the color for the attendance list*/
-    color: color(display-p3 0.3 0.1 0.7);
+    color: color(sRGB 0 0 1 / 0.5);
     text-align: center;
     margin: auto;
     list-style-position: inside;
@@ -44,7 +44,7 @@ label, #date { /*Date and label adjustments and color change*/
 }
 
 .text { /*color change of the text to forest green*/
-    color: color-mix(in srgb, white 50%, green 50%);
+    color: color-mix(in srgb, green 75%, black 45%);
 }
 
 #ALI { /*changed it so that the agenda is on the right middle for everyone to click as they scroll*/
@@ -62,7 +62,7 @@ label, #date { /*Date and label adjustments and color change*/
     border: 2vmin double black;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
