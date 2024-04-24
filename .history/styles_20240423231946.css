@@ -19,11 +19,11 @@ h4 { /*Sets the allignment for the header*/
     text-align: center;
 }
 
-
-#head{
+header{
     h1{
         text-align: center;
         text-shadow: 2px 2pt #6d6d6d;
+
     }
 }
 
