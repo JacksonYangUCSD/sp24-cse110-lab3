@@ -1,3 +1,8 @@
+
+body { /*the body color change to light gray*/
+    background-color: lightgray;
+}
+
 :root { /* Global variables for the following code*/
     --main-bg-color: lightgray;
     --navyblu: rgb(0, 32, 79);
@@ -33,7 +38,7 @@ label, #date { /*Date and label adjustments and color change*/
 }
 
 #CrewList { /*Editing the format and the color for the attendance list*/
-    color: color(srgb 3 1 0.5 0 / .5);
+    color: color(sRGB 0 0 1 / 0.5);
     text-align: center;
     margin: auto;
     list-style-position: inside;
@@ -44,7 +49,7 @@ label, #date { /*Date and label adjustments and color change*/
 }
 
 .text { /*color change of the text to forest green*/
-    color: color-mix(srgb, green 75%, black 45%);
+    color: color-mix(in srgb, green 75%, black 45%);
 }
 
 #ALI { /*changed it so that the agenda is on the right middle for everyone to click as they scroll*/
@@ -91,7 +96,6 @@ details[open] { /*when display open, background color change*/
     right: 3cm;
     top: 8em;
     height: auto;
-    text-decoration: underline;
 }
 
 h3 + img { /*For the image following an h3 header will be placed differently*/

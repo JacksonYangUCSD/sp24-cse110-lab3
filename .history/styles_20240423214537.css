@@ -44,7 +44,7 @@ label, #date { /*Date and label adjustments and color change*/
 }
 
 .text { /*color change of the text to forest green*/
-    color: color-mix(srgb, green 75%, black 45%);
+    color: color-mix(in srgb, green 75%, black 45%);
 }
 
 #ALI { /*changed it so that the agenda is on the right middle for everyone to click as they scroll*/
