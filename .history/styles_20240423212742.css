@@ -1,38 +1,43 @@
+
+body { /*the body color change to light gray*/
+    background-color: lightgray;
+}
+
 :root { /* Global variables for the following code*/
     --main-bg-color: lightgray;
     --navyblu: rgb(0, 32, 79);
     --maincolor: hsl(268, 100%, 21%);
 }
 
-* {
+* { /*Universally sets the font*/
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-body {
+body { /*Sets the background color and the background fallback*/
     background-color: var(--main-bg-color, rgb(240, 140, 140));
 }
 
-h4 {
+h4 { /*Sets the allignment for the header*/
     text-align: center;
 }
 
-#main {
+#main { /*The text shadow for aesthetic title*/
     text-align: center;
     text-shadow: 2px 2pt #6d6d6d;
 }
 
-#topic {
+#topic { /*A color change for the topic */
     color: var(--navyblu);
 }
 
-label, #date {
+label, #date { /*Date and label adjustments and color change*/
     color: var(--maincolor);
     margin-right: 0.3em;
 }
 
-#CrewList {
+#CrewList { /*Editing the format and the color for the attendance list*/
     color: color(sRGB 0 0 1 / 0.5);
     text-align: center;
     margin: auto;
@@ -43,18 +48,18 @@ label, #date {
     align-items: center;
 }
 
-.text {
+.text { /*color change of the text to forest green*/
     color: color-mix(in srgb, green 75%, black 45%);
 }
 
-#ALI {
+#ALI { /*changed it so that the agenda is on the right middle for everyone to click as they scroll*/
     position: fixed;
     right: 2cm;
     top: 15em;
     height: auto;
 }
 
-#head {
+#head { /*The header will always be visable*/
     position: sticky;
     top: 0;
     background-color: lightgray;
@@ -67,7 +72,7 @@ label, #date {
     align-items: center;
 }
 
-textarea {
+textarea { /*fixed width and height*/
     max-width: 20rem;
     min-width: 10rem;
     min-height: 10rem;
@@ -78,38 +83,38 @@ textarea {
     display: none;
 }
 
-video {
+video { /*the size will change with screen length*/
     width: 30vmax;
 }
 
-details[open] {
+details[open] { /*when display open, background color change*/
     background-color: rgb(67, 67, 67);
 }
 
-#ah {
+#ah { /*The Agenda header's placement change*/
     position: fixed;
     right: 3cm;
-    top: 5.7cm;
+    top: 5.2cm;
     height: auto;
 }
 
-h3 + img {
+h3 + img { /*For the image following an h3 header will be placed differently*/
     padding-top: 0.5cm;
     padding-left: 3cm;
     padding-right: 5cm;
     padding-bottom: 2cm;
 }
 
-section:has(li) {
+section:has(li) { /*If a <section> has an li it will have a different color*/
     background-color: grey;
 }
 
-form input, form textarea, form li {
+form input, form textarea, form li { /*the input, text area and the list of the form will look different than the others*/
     display: inline-block;
     margin: 2px;
     color: forestgreen;
 }
 
-button:hover {
+button:hover { /*gives action to button (color change)*/
     background-color: bisque;
 }

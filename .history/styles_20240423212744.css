@@ -94,7 +94,7 @@ details[open] { /*when display open, background color change*/
 #ah { /*The Agenda header's placement change*/
     position: fixed;
     right: 3cm;
-    top: 5.7cm;
+    top: 5.2cm;
     height: auto;
 }
 
@@ -118,4 +118,3 @@ form input, form textarea, form li { /*the input, text area and the list of the 
 button:hover { /*gives action to button (color change)*/
     background-color: bisque;
 }
->>>>>>> Stashed changes

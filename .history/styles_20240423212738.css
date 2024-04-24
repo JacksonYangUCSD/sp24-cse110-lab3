@@ -1,3 +1,8 @@
+
+body { /*the body color change to light gray*/
+    background-color: lightgray;
+}
+
 :root { /* Global variables for the following code*/
     --main-bg-color: lightgray;
     --navyblu: rgb(0, 32, 79);
@@ -89,7 +94,7 @@ details[open] { /*when display open, background color change*/
 #ah { /*The Agenda header's placement change*/
     position: fixed;
     right: 3cm;
-    top: 5.7cm;
+    top: 5cm;
     height: auto;
 }
 
